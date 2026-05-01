@@ -1,0 +1,5 @@
+model,params,threshold,validation_accuracy,validation_precision,validation_recall,validation_f1,feature_count
+Decision Tree,"{""max_depth"": 4, ""min_samples_split"": 5, ""random_state"": 42}",0.5,0.88,0.85,0.85,0.85,10
+KNN,"{""k"": 9, ""weighted"": true}",0.5,0.92,0.8636363636363636,0.95,0.9047619047619048,10
+Logistic Regression,"{""l2"": 0.0, ""learning_rate"": 0.03, ""n_iterations"": 5000}",0.55,0.98,0.9523809523809523,1.0,0.975609756097561,10
+Random Forest,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_split"": 5, ""n_estimators"": 25, ""random_state"": 42, ""sample_ratio"": 1.0}",0.5,0.96,0.95,0.95,0.9500000000000001,10

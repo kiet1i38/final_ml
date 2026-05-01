@@ -1,0 +1,9 @@
+{
+  "id": "Unique student identifier",
+  "gpa": "Grade Point Average (2.0\u20134.0 scale)",
+  "attendance_rate": "Proportion of attended classes (0\u20131)",
+  "study_hours_per_week": "Average weekly study hours",
+  "exam_score": "Final exam score (0\u2013100)",
+  "household_income": "Approximate household monthly income (synthetic units)",
+  "label": "Target variable: scholarship (1=yes, 0=no)"
+}

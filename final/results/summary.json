@@ -1,0 +1,62 @@
+{
+  "data_summary": {
+    "train_shape": [
+      250,
+      8
+    ],
+    "dev_shape": [
+      100,
+      8
+    ],
+    "hidden_shape": [
+      100,
+      7
+    ],
+    "train_label_counts": {
+      "0": 150,
+      "1": 100
+    },
+    "dev_label_counts": {
+      "0": 60,
+      "1": 40
+    },
+    "missing_train": 0,
+    "missing_dev": 0,
+    "hidden_missing_final_features": [
+      "part_time_job_hours"
+    ],
+    "feature_medians": {
+      "gpa": 3.0149999999999997,
+      "attendance_rate": 0.805,
+      "study_hours_per_week": 22.0,
+      "exam_score": 71.5,
+      "household_income": 1436.5,
+      "part_time_job_hours": 13.0
+    }
+  },
+  "selected_model": {
+    "model": "Logistic Regression",
+    "accuracy": 0.92,
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "roc_auc": 0.9962500000000001,
+    "tp": 32,
+    "tn": 60,
+    "fp": 0,
+    "fn": 8,
+    "threshold": 0.55,
+    "params": "{\"l2\": 0.0, \"learning_rate\": 0.03, \"n_iterations\": 5000}"
+  },
+  "hidden_test_metrics": {
+    "accuracy": 0.84,
+    "precision": 0.8333333333333334,
+    "recall": 0.75,
+    "f1": 0.7894736842105262,
+    "tp": 30,
+    "tn": 54,
+    "fp": 6,
+    "fn": 10,
+    "roc_auc": 0.90875
+  }
+}
